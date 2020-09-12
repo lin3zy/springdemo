@@ -3,6 +3,7 @@ package com.lzy.springdemo.service.impl;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.lzy.springdemo.common.exception.BusinessException;
 import com.lzy.springdemo.mapper.mysql.UserMapper;
 import com.lzy.springdemo.model.vo.User;
 import com.lzy.springdemo.service.UserService;
